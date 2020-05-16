@@ -1,0 +1,79 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>RegisterCtl</servlet-name>
+  	<display-name>RegisterCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.hotel.mgt.controller.RegisterCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>Contact</servlet-name>
+  	<display-name>Contact</display-name>
+  	<description></description>
+  	<servlet-class>com.hotel.mgt.controller.Contact</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>ContactCtl</servlet-name>
+  	<display-name>ContactCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.hotel.mgt.controller.ContactCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>RoomCtl</servlet-name>
+  	<display-name>RoomCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.hotel.mgt.controller.RoomCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>CheckAvailableRoom</servlet-name>
+  	<display-name>CheckAvailableRoom</display-name>
+  	<description></description>
+  	<servlet-class>com.hotel.mgt.controller.CheckAvailableRoom</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>StudentCtl</servlet-name>
+  	<display-name>StudentCtl</display-name>
+  	<description></description>
+  	<servlet-class>com.hotel.mgt.controller.StudentCtl</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>VVv</servlet-name>
+  	<display-name>VVv</display-name>
+  	<description></description>
+  	<servlet-class>com.hotel.mgt.controller.VVv</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>RegisterCtl</servlet-name>
+  	<url-pattern>/RegisterCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>Contact</servlet-name>
+  	<url-pattern>/Contact</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>ContactCtl</servlet-name>
+  	<url-pattern>/ContactCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>RoomCtl</servlet-name>
+  	<url-pattern>/RoomCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>CheckAvailableRoom</servlet-name>
+  	<url-pattern>/CheckAvailableRoom</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>StudentCtl</servlet-name>
+  	<url-pattern>/StudentCtl</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>VVv</servlet-name>
+  	<url-pattern>/VVv</url-pattern>
+  </servlet-mapping>
+  
+ 
+</web-app>
